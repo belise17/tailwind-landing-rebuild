@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopZone | Online Fashion Store</title>
+</head>
+
+<body class="bg-white font-sans text-[#222]">
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="flex flex-wrap items-center justify-between gap-5 px-[8%] py-6">
+      <a href="#" class="text-3xl font-bold">
+        Shop<span class="text-[#e85d75]">Zone.</span>
+      </a>
+
+      <ul class="flex flex-wrap gap-6">
+        <li><a href="#home" class="hover:text-[#e85d75]">Home</a></li>
+        <li><a href="#shop" class="hover:text-[#e85d75]">Shop</a></li>
+        <li><a href="#categories" class="hover:text-[#e85d75]">Categories</a></li>
+        <li><a href="#about" class="hover:text-[#e85d75]">About</a></li>
+      </ul>
+
+      <a href="#shop" class="rounded-md bg-[#e85d75] px-6 py-3 text-white hover:bg-[#c83d57]">
+        Shop Now
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="flex flex-col items-center gap-12 bg-[#fff7f5] px-[8%] py-16 md:flex-row">
+
+    <div class="flex-1">
+      <p class="mb-5 text-sm font-bold tracking-[2px] text-[#e85d75]">
+        NEW COLLECTION 2026
+      </p>
+
+      <h1 class="mb-5 text-5xl font-bold leading-tight md:text-6xl">
+        Discover Your
+        <span class="block text-[#e85d75]">Unique Style</span>
+      </h1>
+
+      <p class="mb-8 max-w-md leading-8 text-gray-500">
+        Explore the latest fashion trends and discover
+        styles that express who you are.
+      </p>
+
+      <a href="#shop" class="inline-block rounded-md bg-[#e85d75] px-7 py-4 text-white hover:bg-[#c83d57]">
+        Explore Collection
+      </a>
+    </div>
+
+    <div class="flex-1">
+      <img
+        src="images/shopping.jpeg"
+        alt="Fashion collection"
+        class="h-[350px] w-full rounded-xl object-cover md:h-[480px]"
+      >
+    </div>
+
+  </section>
+
+  <!-- CATEGORIES -->
+  <section id="categories" class="px-[8%] py-20">
+
+    <div class="mb-10 text-center">
+      <p class="mb-4 text-sm font-bold tracking-widest text-[#e85d75]">
+        EXPLORE OUR STORE
+      </p>
+      <h2 class="text-3xl font-bold md:text-4xl">Shop By Category</h2>
+    </div>
+
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+
+      <div class="overflow-hidden rounded-xl">
+        <img src="images/shopping.jpeg"
+          alt="Women's fashion"
+          class="h-[300px] w-full object-cover">
+        <h3 class="p-5 text-center text-lg font-semibold">Women's Fashion</h3>
+      </div>
+
+      <div class="overflow-hidden rounded-xl">
+        <img src="images/corts.jpeg"
+          alt="Men's fashion"
+          class="h-[300px] w-full object-cover">
+        <h3 class="p-5 text-center text-lg font-semibold">Men's Fashion</h3>
+      </div>
+
+      <div class="overflow-hidden rounded-xl">
+        <img src="images/highhills.jpeg"
+          alt="Shoes"
+          class="h-[300px] w-full object-cover">
+        <h3 class="p-5 text-center text-lg font-semibold">Shoes & Accessories</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="shop" class="px-[8%] py-20">
+
+    <div class="mb-10 text-center">
+      <p class="mb-4 text-sm font-bold tracking-widest text-[#e85d75]">
+        OUR SELECTION
+      </p>
+      <h2 class="text-3xl font-bold md:text-4xl">Featured Products</h2>
+    </div>
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+      <article class="overflow-hidden rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="images/snackers.jpeg"
+          alt="Red sneakers" class="h-[250px] w-full object-cover">
+        <div class="p-5">
+          <p class="mb-2 text-sm text-gray-400">Shoes</p>
+          <h3 class="mb-3 font-semibold">Classic Sneakers</h3>
+          <span class="font-bold text-[#e85d75]">$65.00</span>
+        </div>
+      </article>
+
+      <article class="overflow-hidden rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="images/handbag.jpeg"
+          alt="Handbag" class="h-[250px] w-full object-cover">
+        <div class="p-5">
+          <p class="mb-2 text-sm text-gray-400">Accessories</p>
+          <h3 class="mb-3 font-semibold">Elegant Handbag</h3>
+          <span class="font-bold text-[#e85d75]">$48.00</span>
+        </div>
+      </article>
+
+      <article class="overflow-hidden rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="images/tshirt.jpeg"
+          alt="White T-shirt" class="h-[250px] w-full object-cover">
+        <div class="p-5">
+          <p class="mb-2 text-sm text-gray-400">Clothing</p>
+          <h3 class="mb-3 font-semibold">Classic T-Shirt</h3>
+          <span class="font-bold text-[#e85d75]">$25.00</span>
+        </div>
+      </article>
+
+      <article class="overflow-hidden rounded-xl border border-gray-200 transition hover:-translate-y-1 hover:shadow-xl">
+        <img src="images/jackets.jpeg"
+          alt="Fashion jacket" class="h-[250px] w-full object-cover">
+        <div class="p-5">
+          <p class="mb-2 text-sm text-gray-400">Clothing</p>
+          <h3 class="mb-3 font-semibold">Modern Jacket</h3>
+          <span class="font-bold text-[#e85d75]">$85.00</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-[#fff7f5] px-[10%] py-20 text-center">
+    <p class="mb-5 font-bold tracking-widest text-[#e85d75]">
+      ABOUT SHOPZONE
+    </p>
+
+    <h2 class="mb-6 text-3xl font-bold md:text-4xl">
+      Fashion That Speaks For You.
+    </h2>
+
+    <p class="mx-auto max-w-2xl leading-8 text-gray-500">
+      At ShopZone, we believe everyone deserves to feel
+      confident and stylish. Discover quality fashion
+      designed for your everyday lifestyle.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#222] px-5 py-10 text-center text-white">
+    <h2 class="mb-3 text-2xl font-bold text-[#e85d75]">ShopZone.</h2>
+    <p class="mb-3 text-gray-300">Your Style, Your Choice, Your Zone.</p>
+    <p class="text-sm text-gray-400">
+      © 2026 ShopZone. All rights reserved.
+    </p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
